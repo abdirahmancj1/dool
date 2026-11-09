@@ -1,0 +1,37 @@
+name: dool
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  url_launcher: ^6.2.5       # For launching URLs, calls, WhatsApp
+  share_plus: ^7.2.1         # For sharing app links
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/zaad.png
+    - assets/images/edahab.png
+    - assets/images/rate.png
+    - assets/images/iconn.jpg      # Haddii aad u isticmaashay 'xoosh' image halkan magaca sax ku qor
+    - assets/images/dollar.jpg
+    - assets/images/shilin.jpg
+    - assets/images/sarifle.jpg
+    - assets/images/exchange.jpg
+    - assets/images/shilin.jpg
+    - assets/images/dool.png
+
